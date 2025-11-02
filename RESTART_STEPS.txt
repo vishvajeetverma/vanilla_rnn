@@ -1,0 +1,154 @@
+===============================================================================
+RESTART STEPS FOR VANILLA RNN PROJECT
+===============================================================================
+Complete sequence to follow when you restart your system and open Cursor again
+===============================================================================
+
+STEP 1: START YOUR SYSTEM
+---------------------------
+- Power on your system
+- Log in to your account
+
+
+STEP 2: OPEN CURSOR APPLICATION
+---------------------------------
+- Open the Cursor IDE/application
+- Wait for it to fully load
+
+
+STEP 3: OPEN YOUR PROJECT
+---------------------------
+Option A: Using File Menu
+  - Click: File → Open Folder
+  - Navigate to: /home/kaifalam/vishvajeet_verma/vanilla_rnn
+  - Click: Open
+
+Option B: If Cursor remembers recent projects
+  - Select 'vanilla_rnn' from recent projects
+  - Or use: File → Open Recent
+
+
+STEP 4: OPEN THE NOTEBOOK
+---------------------------
+- In the file explorer (left sidebar), find: vanilla_rnn.ipynb
+- Click to open the notebook
+- The notebook should open in the editor
+
+
+STEP 5: VERIFY PYTHON ENVIRONMENT (if needed)
+-----------------------------------------------
+- Check if Jupyter kernel is running
+- If needed: 
+  - Click on kernel status (top right)
+  - Select: Kernel → Select Kernel
+  - Choose your Python environment
+
+OR start Jupyter in terminal:
+  cd /home/kaifalam/vishvajeet_verma/vanilla_rnn
+  jupyter notebook
+
+
+STEP 6: RUN ALL CELLS IN ORDER
+-------------------------------
+Run cells sequentially from top to bottom:
+
+Cell 0  (Markdown) → Title: "Vanilla RNN from Scratch for Vehicle Sensor Data"
+Cell 1  (Code)    → Imports (pandas, numpy)
+Cell 2  (Code)    → Load dataset
+Cell 3  (Code)    → Explore dataset structure
+Cell 4  (Code)    → Create sensor_df (RPM, Speed)
+Cell 5  (Code)    → Check duplicate timestamps
+Cell 6  (Markdown)→ Dataset summary
+Cell 7  (Code)    → Normalize data
+Cell 8  (Code)    → Train/Val/Test split
+Cell 9  (Code)    → Create sequences/windows
+Cell 10 (Markdown)→ RNN architecture explanation
+Cell 11 (Code)    → Visualization
+Cell 12 (Code)    → Initialize weights and biases
+Cell 13 (Markdown)→ Hidden size explanation
+Cell 14 (Code)    → Test forward pass (detailed window processing)
+
+
+STEP 7: VERIFY EVERYTHING WORKS
+--------------------------------
+After running all cells, check:
+✓ No errors in any cell
+✓ X_train, X_val, X_test are defined
+✓ W_hh, W_xh, W_hy, b_h, b_y are initialized
+✓ Test cell (14) runs successfully
+✓ All variables are in memory
+
+
+STEP 8: YOU'RE READY TO CONTINUE
+---------------------------------
+All your previous work is loaded:
+- Data is preprocessed
+- Sequences are created
+- Weights are initialized
+- Forward pass is implemented
+
+Next steps to continue:
+1. Create forward pass function for entire sequences
+2. Implement loss calculation
+3. Implement backward pass (backpropagation)
+4. Create training loop
+5. Evaluate trained model
+
+
+===============================================================================
+QUICK CHECKLIST
+===============================================================================
+[ ] Opened Cursor application
+[ ] Opened project folder: vanilla_rnn
+[ ] Opened notebook: vanilla_rnn.ipynb
+[ ] Selected/started Python kernel
+[ ] Ran all cells in order (Cell 0 to Cell 14)
+[ ] Verified no errors
+[ ] All variables loaded successfully
+[ ] Ready to continue!
+
+
+===============================================================================
+TROUBLESHOOTING
+===============================================================================
+If you encounter errors:
+
+1. Kernel Issues:
+   - Restart kernel: Kernel → Restart Kernel
+   - Re-run all cells from top
+
+2. Missing Variables:
+   - Make sure you ran all cells in order
+   - Check that earlier cells completed successfully
+
+3. Module Not Found:
+   - Install missing packages: pip install pandas numpy matplotlib seaborn
+
+4. File Not Found:
+   - Check you're in correct directory
+   - Verify dataset file exists: dataset/2017-07-31_Seat_Leon_RT_KA_Normal.csv
+
+
+===============================================================================
+PROJECT STATUS
+===============================================================================
+Last Commit: "Add detailed step-by-step testing cell for processing first window 
+              with full output display"
+
+Current Location: Forward pass implementation complete, tested with actual data
+Next Step: Create forward pass function for entire sequences OR Loss calculation
+
+
+===============================================================================
+IMPORTANT NOTES
+===============================================================================
+- All your work is saved in git (committed)
+- You can safely close and restart anytime
+- Always run cells in order from top to bottom
+- Save your notebook before closing (Cmd+S / Ctrl+S)
+
+
+===============================================================================
+END OF RESTART STEPS
+===============================================================================
+
